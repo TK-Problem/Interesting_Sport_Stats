@@ -23,7 +23,7 @@ To answer these questions I scraped Oddsportal.com and wrote a blog post **[plac
 
 ## File description
 
-* `data_scraper.ipynb` notebook with data scraping code.
-* `data_processing.ipynb` notebook with data processing code.
+* `basketball_data_scraper.ipynb` notebook with data scraping code.
+* `data_processing.ipynb` notebook with all data processing and analysis code.
 * `geckodriver.exe` executable file for Morzilla Firefox.
 * `basketball.csv` scraped NBA and Euroleague 2013-2018 seasons data.
