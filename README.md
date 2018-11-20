@@ -7,19 +7,27 @@ All code was written in Python 3.6. Necessary dependencies are provided in `requ
 This project was inspired by Udacity Data Scientist Nanodegree mini project *"Write A Data Science Blog
  Post"*. I wanted to practice
   [CRISP-DM process](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) 
-  on a small set of data and short data analysis notebook. For these reasons, I chose to investigate
+  on  sports performance and betting data. For these reasons, I chose to investigate
    historical data of top basketball leagues in USA and Europe. Initially, I wanted to answer these 
    questions:
 
-* Which basketball league is more competitive?
-* Are there any trends on historical league performance?
-* Are there any differences in USA and Europe on home court advantage?
+* Which are the most unprofitable bets?
+* Are there any blind betting profitable strategies?
+* What are the main differences between North America and Europe leagues?
+* Do sports markets correct themselves overtime?
+* Who are the most successful winners?
 
 To answer these questions I scraped Oddsportal.com and wrote a blog post **[placeholder]**.
 
 ## Key observations
 
-* 
+* Closing odds reflect true probabilities:
+
+![fig 1](images/observed_prob_vs_implied_separate.png "Correlation plot")
+
+* Randomly betting on closing odds is not profitable:
+
+![fig 2](images/random_bet_simulations.png "Simulation results")
 
 ## File description
 
