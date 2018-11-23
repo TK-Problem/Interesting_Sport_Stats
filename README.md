@@ -21,7 +21,7 @@ To answer these questions I scraped Oddsportal.com and wrote a blog post **[plac
 
 ## Key observations
 
-* Closing odds reflect true probabilities:
+* Closing odds reflect true probabilities:j
 
 ![fig 1](images/observed_prob_vs_implied_separate.png "Correlation plot")
 
