@@ -8,7 +8,9 @@ This project was inspired by Udacity Data Scientist Nanodegree mini project *"Wr
  Post"*. I wanted to practice
   [CRISP-DM process](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) 
   on  sports performance and betting data. For these reasons, I chose to investigate
-   historical data of top basketball leagues in USA and Europe. Initially, I wanted to answer these 
+   historical odds data of top sport leagues in USA and Europe.
+    
+   Initially, I wanted to answer these 
    questions:
 
 * Which are the most unprofitable bets?
@@ -21,13 +23,17 @@ To answer these questions I scraped Oddsportal.com and wrote a blog post **[plac
 
 ## Key observations
 
-* Closing odds reflect true probabilities:j
+* Closing odds reflect true probabilities: for both top basketball leagues:
 
 ![fig 1](images/observed_prob_vs_implied_separate.png "Correlation plot")
 
-* Randomly betting on closing odds is not profitable:
+* Randomly betting on closing odds is not profitable in long run:
 
 ![fig 2](images/random_bet_simulations.png "Simulation results")
+
+* Basketball team average total points scored increases over seasons:
+
+![fig 3](images/total_points.png "Total points vs season")
 
 ## File description
 
@@ -38,3 +44,7 @@ To answer these questions I scraped Oddsportal.com and wrote a blog post **[plac
   * `basketball_games.csv` scraped NBA and Euroleague 2013-2018 seasons data.
   * `NBA_20XX_20YY.csv` and `EURO_20XX_20YY.csv` asian handicap and totals (under/over X) for NBA and Euroleague 2013-2018 seasons games.
 * Folder `images` contains various .png files.
+
+## Acknowledgements
+
+Placeholder.
