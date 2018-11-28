@@ -37,9 +37,10 @@ To answer these questions I scraped Oddsportal.com and wrote a blog post **[plac
 
 ## File description
 
-* `basketball_data_scraper.ipynb` notebook with data scraping code.
-* `data_processing.ipynb` notebook with all data processing and analysis code.
-* `geckodriver.exe` executable file for Morzilla Firefox.
+* `basketball_data_scraper.ipynb` notebook with NBA and Euroleague data scraping code.
+* `data_processing.ipynb` notebook with all basketball data processing and analysis code.
+Ū `nba_blog_post.ipynb` notebook with data processing for blog post at Medium **(add link)**
+* `geckodriver.exe` executable file for Mozilla Firefox.
 * Folder `data` contains .csv files with scraped data:
   * `basketball_games.csv` scraped NBA and Euroleague 2013-2018 seasons data.
   * `NBA_20XX_20YY.csv` and `EURO_20XX_20YY.csv` asian handicap and totals (under/over X) for NBA and Euroleague 2013-2018 seasons games.
