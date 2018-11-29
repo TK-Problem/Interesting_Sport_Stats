@@ -19,7 +19,8 @@ This project was inspired by Udacity Data Scientist Nanodegree mini project *"Wr
 * Do sports markets correct themselves overtime?
 * Who are the most successful winners?
 
-To answer these questions I scraped Oddsportal.com and wrote a blog post **[placeholder]**.
+Answers to these questions can be found in `basketball_data_scraper.ipynb` notebook. A more detailed analysis of 
+NBA odds is provided in `nba_blog_post.ipynb` notebook. Results were used to write a blog post **[placeholder]**.
 
 ## Key observations
 
@@ -39,7 +40,7 @@ To answer these questions I scraped Oddsportal.com and wrote a blog post **[plac
 
 * `basketball_data_scraper.ipynb` notebook with NBA and Euroleague data scraping code.
 * `data_processing.ipynb` notebook with all basketball data processing and analysis code.
-Ū `nba_blog_post.ipynb` notebook with data processing for blog post at Medium **(add link)**
+* `nba_blog_post.ipynb` notebook with data processing for blog post at Medium **(add link)**
 * `geckodriver.exe` executable file for Mozilla Firefox.
 * Folder `data` contains .csv files with scraped data:
   * `basketball_games.csv` scraped NBA and Euroleague 2013-2018 seasons data.
