@@ -20,7 +20,9 @@ This project was inspired by Udacity Data Scientist Nanodegree mini project *"Wr
 * Who are the most successful winners?
 
 Answers to these questions can be found in `basketball_data_scraper.ipynb` notebook. A more detailed analysis of 
-NBA odds is provided in `nba_blog_post.ipynb` notebook. Results were used to write a blog post **[placeholder]**.
+NBA odds is provided in `nba_blog_post.ipynb` notebook. Results were used to write [a blog post](https://medium.com/@t.uzdavinys/statistical-analysis-of-nba-odds-how-to-not-lose-money-betting-on-basketball-bc41fe239561)
+ 
+ **[placeholder]**.
 
 ## Key observations
 
@@ -40,7 +42,7 @@ NBA odds is provided in `nba_blog_post.ipynb` notebook. Results were used to wri
 
 * `basketball_data_scraper.ipynb` notebook with NBA and Euroleague data scraping code.
 * `data_processing.ipynb` notebook with all basketball data processing and analysis code.
-* `nba_blog_post.ipynb` notebook with data processing for blog post at Medium **(add link)**
+* `nba_blog_post.ipynb` notebook with data processing for blog post at [Medium](https://medium.com/@t.uzdavinys/statistical-analysis-of-nba-odds-how-to-not-lose-money-betting-on-basketball-bc41fe239561).
 * `geckodriver.exe` executable file for Mozilla Firefox.
 * Folder `data` contains .csv files with scraped data:
   * `basketball_games.csv` scraped NBA and Euroleague 2013-2018 seasons data.
